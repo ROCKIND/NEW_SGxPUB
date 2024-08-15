@@ -15,66 +15,66 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', 16536417))
-API_HASH = environ.get('API_HASH', "f6e58a549da642d7b765744a2f82c6d9")
-BOT_TOKEN = environ.get('BOT_TOKEN', "6781235304:AAGPTismpXKvQCHFANLAaIxoBTZrA4oX3vI")
+API_ID = int(environ.get('API_ID', '25833520'))
+API_HASH = environ.get('API_HASH', '7d012a6cbfabc2d0436d7a09d8362af7')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6317806472:AAEtt-TiWwWRAjoQbVDPDjX5rqcj5GoC900")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/e8876d6689b687de24fbe.png')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/e8876d6689b687de24fbe.png")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/d1e194ee79eac633fccd5.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/d1e194ee79eac633fccd5.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/6657f10a33d40c047f875.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/7db384d955159386d1060.jpg")
-VRFY_IMG = environ.get("VRFY_IMG", "https://graph.org/file/cf2a38e916d9388212ec7.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/4dc9c66df41c6197a3144.jpg")
+VRFIED_IMG = environ.get("VRFIED_IMG", "https://telegra.ph/file/5fc64e01b89b9bedc6dfa.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '921365334 1562935405 563896360 974706111').split()]
-CHANNELS = environ.get('CHANNELS',-1002147715046)
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1562935405 7053097886 5994274880 6303070462').split()]
+CHANNELS = environ.get('CHANNELS', '')
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '921365334 1153569236').split()]
-auth_channel = environ.get('AUTH_CHANNEL')
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
+auth_channel = environ.get('AUTH_CHANNEL', '-1002174080292')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001953320653')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002242954886')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://robo123:robo123@cluster0.pana52z.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "New_auto_bot_may_2024")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'NewStart')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Error:error@cluster0.nw25n0q.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "sgbot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'cluster0')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '38199a431d38b95e28b2a33062b46dc71ff6bca1')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f12bdd3c5c118fdc7ab6dd26bbf360968923f379')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002151380153').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+CZH0JaSwih44ZTM1')
-SPRT_GRP = environ.get('SPRT_GRP', 'https://t.me/+ZSUTmOXuwqxlODk1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/THE_SILENT_TEAMS')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Robo_5_0/40')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SG_Movies1')
+SPRT_GRP = environ.get('SPRT_GRP', 'https://t.me/')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Bots_Office')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Sg_Movie_Backup_1/98')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Robo_5_0/40')
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴄʜᴀʜᴛᴇ ᴋʏᴀ ʜᴏ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001539400248'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'THE_SILENT_TEAMS')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Sg_Movie_Backup_1/98')
+MSG_ALRT = environ.get('MSG_ALRT', 'Juldi Yaha Se Hato')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Bots_Office_Support')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
-AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
+AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "[{file_name}](https://t.me/The_Silent_Teams)\n\n<b>Join Our Offical Channel & Group @The_Silent_Teams ❤️") # f"{script.CAPTION}")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "[{file_name}](https://t.me/Bots_Office)\n\n<b>Join Our Offical Bot Channel @Bots_Office ❤️") # f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
