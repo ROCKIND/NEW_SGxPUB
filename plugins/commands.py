@@ -29,8 +29,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                       
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/Bots_Office'),
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/Bots_Office_Support')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -48,12 +48,12 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('🎭 ᴍʏ ɢʀᴏᴜᴘ 🎭 ', url='https://t.me/+CZH0JaSwih44ZTM1'),
-                    InlineKeyboardButton('☘️ Sᴜᴘᴘᴏʀᴛ ☘️', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('ᴍʏ ɢʀᴏᴜᴘ ✨', url='https://t.me/SG_Movies1'),
+                    InlineKeyboardButton('ᴍʏ Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🤖', url='https://t.me/Bots_Office_Support')
                   ],[
-                    InlineKeyboardButton('☀️ ᴊᴏɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ ☀️', url='https://t.me/The_Silent_Teams'),
+                    InlineKeyboardButton('☀️ ᴊᴏɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ ☀️', url='https://t.me/Bots_Office'),
                   ],[
-                    InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', callback_data='premium')
+                    InlineKeyboardButton('Gᴇᴛ Pʀᴇᴍɪᴜᴍ Sᴇʀᴠɪᴄᴇ 🔥', callback_data='premium')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)        
@@ -67,7 +67,7 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help", "buy_premium"]:
         if message.command[1] == "buy_premium":
           buttons = [[
-                    InlineKeyboardButton('𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 𝐁𝐮𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦', url='https://t.me/Man_With_SilentBot')
+                    InlineKeyboardButton('𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 𝐁𝐮𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦', url='https://t.me/Developer_DM_Bot')
                   ],[
                     InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
                   ]]
@@ -110,7 +110,7 @@ async def start(client, message):
         buttons = buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', callback_data='premium')
+                    InlineKeyboardButton('Gᴇᴛ Pʀᴇᴍɪᴜᴍ Sᴇʀᴠɪᴄᴇ 🔥', callback_data='premium')
                   ],[
                     InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help')
                   ],[
@@ -166,8 +166,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Aᴜᴛᴏ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/Bots_Office'),
+                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/Bots_Office_Support')
                        ]
                         ]
                     )
@@ -183,8 +183,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Aᴜᴛᴏ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/Bots_Office'),
+                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/Bots_Office_Support')
                        ]
                         ]
                     )
@@ -377,7 +377,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 💥', url=CHNL_LNK) 
+                      InlineKeyboardButton('Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 💥', url='https://t.me/Bots_Office') 
                      ]
                     ]
                 )
@@ -438,7 +438,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 💥', url=CHNL_LNK) 
+                      InlineKeyboardButton('Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 💥', url='https://t.me/Bots_Office') 
                      ]
                    ]
         
@@ -498,7 +498,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 💥', url=CHNL_LNK)
+              InlineKeyboardButton('Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 💥', url='https://t.me/Bots_Office')
              ]
             ]
         )
@@ -1151,7 +1151,7 @@ async def removetutorial(bot, message):
 @Client.on_message(filters.command("get_premium") & filters.private)
 async def premium_handler(bot, message):                
     btn = [[
-            InlineKeyboardButton('𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 𝐁𝐮𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦', url='https://t.me/Man_With_SilentBot')
+            InlineKeyboardButton('𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 𝐁𝐮𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦', url='https://t.me/Developer_DM_Bot')
           ],[
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
           ]]
