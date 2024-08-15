@@ -5,17 +5,13 @@ class script(object):
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs,
 ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ.
-ɪ ᴡᴏʀᴋ ᴏɴ ʙᴏᴛʜ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ.</b>
-
-<b><blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/THE_SILENT_TEAMS">Tʜᴇ Sɪʟᴇɴᴛ Tᴇᴀᴍ</a></blockquote></b>"""
-
+ɪ ᴡᴏʀᴋ ᴏɴ ʙᴏᴛʜ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ.</b>"""
+    
     HELP_TXT = """<b>Hᴇʏ {}
     
 Tʜɪꜱ Bᴏᴛ Iꜱ Mᴀᴅᴇ Fᴏʀ Tᴏ Gᴇᴛ Mᴏᴠɪᴇꜱ Aꜱ Yᴏᴜ Wᴀɴᴛ !
 ɪᴜꜱᴛ Sᴇɴᴅ Mᴏᴠɪᴇ ᴏʀ Sᴇʀɪᴇꜱ Nᴀᴍᴇ Oɴʟʏ !
-Cᴀꜱᴇ ᴏғ ᴄᴏᴘʏʀɪɢʜᴛ ᴅɪʀᴇᴄᴛ ᴛᴀʟᴋ : [YᴏᴜʀSᴇʟғ](tg://settings)
-
-<blockquote>Hᴇʀᴇ Iꜱ Sᴏᴍᴇ Uꜱᴇғᴜʟ Bᴏᴛꜱ Mᴀᴅᴇ Bʏ <a href="https://t.me/THE_SILENT_TEAMS">Tʜᴇ Sɪʟᴇɴᴛ Tᴇᴀᴍ</a></blockquote></b>"""
+Cᴀꜱᴇ ᴏғ ᴄᴏᴘʏʀɪɢʜᴛ ᴅɪʀᴇᴄᴛ ᴛᴀʟᴋ : [YᴏᴜʀSᴇʟғ](tg://settings)"""
 
     DS_TEXT  = """<b>𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐒𝐢𝐥𝐞𝐧𝐭 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐘𝐨𝐣𝐚𝐧𝐚</b>
 
@@ -56,11 +52,11 @@ Tᴏᴘ Pʟᴀɴ ⭐️
 <b><blockquote>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 𝐁𝐮𝐲: 👉🏻 @Man_With_SilentBot 👈🏻</blockquote></b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/The_Silent_Teams>The Silent Teams</a></b>
+✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/Developer_DM_Bot>Developer</a></b>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Dᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/THE_DS_OFFICIAL'>Cʟɪᴄᴋ Hᴇʀᴇ</a>
 ✯ Mʏ Fʀɪᴇɴᴅ: <a href='tg://settings'>Cʟɪᴄᴋ Hᴇʀᴇ</a>
 </b>"""
+    
     SOURCE_TXT = """<b>Tʜɪꜱ ɪꜱ ᴀɴ ᴜᴘɢʀᴀᴅᴇᴅ ʀᴇᴘᴏ ꜱᴏ ɪᴛ ɪꜱ ᴘʀɪᴠᴀᴛᴇ !
     
 Iғ Yᴏᴜ Wᴀɴᴛ Tʜᴇɴ Mᴇꜱꜱᴀɢᴇ Tᴏ @THE_DS_OFFICIAL & Bᴜʏ Iᴛ !</b>"""
@@ -84,7 +80,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/The_Silent_Teams)</code>
+<code>[Button Text](buttonurl:https://t.me/Developer_DM_Bot)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -255,9 +251,9 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b><code><a href="https://t.me/THE_SILENT_TEAMS">{file_name}</a></code>
+<b><code><a href="https://t.me/Bots_Office">{file_name}</a></code>
 
-@THE_SILENT_TEAMS
+USE 👉🏻 @THEATRE_MOVIE_BOT For Theatre Print / New Relese Movies !
 </b>"""
     
     MODS_TXT = """Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Bᴇʟᴏᴡ Oᴘᴛɪᴏɴ..!!!"""
