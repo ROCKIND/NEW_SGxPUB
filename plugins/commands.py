@@ -48,10 +48,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('ᴍʏ ɢʀᴏᴜᴘ ✨', url='https://t.me/SG_Movies1'),
-                    InlineKeyboardButton('ᴍʏ Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🤖', url='https://t.me/Bots_Office_Support')
-                  ],[
-                    InlineKeyboardButton('☀️ ᴊᴏɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ ☀️', url='https://t.me/Bots_Office'),
+                    InlineKeyboardButton('Sᴇᴀʀᴄʜ HD Mᴏᴠɪᴇꜱ Here ✨', url='https://t.me/SG_Movies1'),
                   ],[
                     InlineKeyboardButton('Gᴇᴛ Pʀᴇᴍɪᴜᴍ Sᴇʀᴠɪᴄᴇ 🔥', callback_data='premium')
                   ]]
