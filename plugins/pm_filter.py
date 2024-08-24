@@ -145,27 +145,23 @@ async def next_page(bot, query):
 
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url=f"https://t.me/Movie_4_All_Bot"),
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟸",  url=f"https://t.me/SG_Movie_Filter_Bot")
             ]
         )
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url=f"https://t.me/Movie_4_All_Bot"),
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟸",  url=f"https://t.me/SG_Movie_Filter_Bot")
             ]
         )
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
     try:
         if settings['max_btn']:
@@ -398,27 +394,23 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         ]
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url=f"https://t.me/Movie_4_All_Bot"),
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟸",  url=f"https://t.me/SG_Movie_Filter_Bot")
             ]
         )
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url=f"https://t.me/Movie_4_All_Bot"),
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟸",  url=f"https://t.me/SG_Movie_Filter_Bot")
             ]
         )
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
 
     if offset != "":
@@ -553,27 +545,23 @@ async def filter_years_cb_handler(client: Client, query: CallbackQuery):
         ]
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url=f"https://t.me/Movie_4_All_Bot"),
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟸",  url=f"https://t.me/SG_Movie_Filter_Bot")
             ]
         )
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url=f"https://t.me/Movie_4_All_Bot"),
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟸",  url=f"https://t.me/SG_Movie_Filter_Bot")
             ]
         )
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
 
     if offset != "":
@@ -739,20 +727,17 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         ]
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url=f"https://t.me/Movie_4_All_Bot"),
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟸",  url=f"https://t.me/SG_Movie_Filter_Bot")
             ]
         )
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
         
     offset = 0
@@ -873,27 +858,23 @@ async def filter_quality_cb_handler(client: Client, query: CallbackQuery):
         ]
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url=f"https://t.me/Movie_4_All_Bot"),
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟸",  url=f"https://t.me/SG_Movie_Filter_Bot")
             ]
         )
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url=f"https://t.me/Movie_4_All_Bot"),
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟸",  url=f"https://t.me/SG_Movie_Filter_Bot")
             ]
         )
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
 
     if offset != "":
@@ -2238,27 +2219,23 @@ async def auto_filter(client, msg, spoll=False):
         ]
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url=f"https://t.me/Movie_4_All_Bot"),
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟸",  url=f"https://t.me/SG_Movie_Filter_Bot")
             ]
         )
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url=f"https://t.me/Movie_4_All_Bot"),
+                InlineKeyboardButton("HD Mᴏᴠɪᴇ Bᴏᴛ 𝟸",  url=f"https://t.me/SG_Movie_Filter_Bot")
             ]
         )
         btn.insert(0, [
             InlineKeyboardButton("Bᴜʏ Pʀᴇᴍɪᴜᴍ 💸", url=f"https://t.me/{temp.U_NAME}?start=buy_premium"),
-            InlineKeyboardButton("ʏᴇᴀʀs 📅", callback_data=f"years#{key}")
         ])
     if offset != "":
         req = message.from_user.id if message.from_user else 0
