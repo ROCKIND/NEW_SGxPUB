@@ -1,11 +1,10 @@
 #(©) 𝚂𝙰𝙽𝙲𝙷𝙸𝚃 ♛⛧ 
 
 class script(object):
-    START_TXT = """<b>ʜᴇʟʟᴏ {}
+    START_TXT = """<b>✨ ʜᴇʟʟᴏ {}
 
-ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs,
-ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ.
-ɪ ᴡᴏʀᴋ ᴏɴ ʙᴏᴛʜ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ.</b>"""
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛ Mᴏᴠɪᴇs Fᴏʀ Yᴏᴜ!
+Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
     
     HELP_TXT = """<b>Hᴇʏ {}
     
@@ -146,7 +145,7 @@ Iꜰ Aɴʏᴛʜɪɴɢ Iꜱ Aɢᴀɪɴꜱᴛ Lᴀᴡ Pʟᴇᴀꜱᴇ Cᴏɴᴛᴀ
 ɪꜰ Yᴏᴜ Bᴇʟɪᴇᴠᴇ Tʜɪꜱ Bᴏᴛ ɪꜱ Vɪᴏʟᴀᴛɪɴɢ Yᴏᴜʀ Iɴᴛᴇʟʟᴇᴄᴛᴜᴀʟ Pʀᴏᴘᴇʀᴛʏ, Cᴏɴᴛᴀᴄᴛ Tʜᴇ Rᴇꜱᴘᴇᴄᴛɪᴠᴇ Cʜᴀɴɴᴇʟꜱ Fᴏʀ Rᴇᴍᴏᴠᴀʟ.
 Tʜᴇ Bᴏᴛ Dᴏᴇꜱ Nᴏᴛ Oᴡɴ Aɴʏ Oꜰ Tʜᴇꜱᴇ Cᴏɴᴛᴇɴᴛꜱ, Iᴛ Oɴʟʏ Iɴᴅᴇx Tʜᴇ Fɪʟᴇꜱ Fʀᴏᴍ Tᴇʟᴇɢʀᴀᴍ. 
 
-<blockquote>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/THE_DS_OFFICIAL'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></blockquote></b>"""
+<blockquote>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/Developer_DM_Bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></blockquote></b>"""
     
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
@@ -167,13 +166,11 @@ Nᴀᴍᴇ - {}"""
 
 ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃
 
+⚠ I Wɪʟʟ Gɪᴠᴇ Yᴏᴜ Oɴʟʏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛ Oʀ Nᴇᴡ Rᴇʟᴇꜱᴇᴅ Mᴏᴠɪᴇꜱ ⚠
+
 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : Uncharted or Uncharted 2022 or Uncharted En
-
-ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
-
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
+ᴇxᴀᴍᴘʟᴇ : Uncharted or Uncharted 2022 
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
@@ -235,7 +232,7 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """
 <b><code><a href="https://t.me/Bots_Office">{file_name}</a></code>
 
-USE 👉🏻 @THEATRE_MOVIE_BOT For Theatre Print / New Relese Movies !
+USE 👉🏻 @Movie_4_All_Bot For All Other Movies !
 </b>"""
     
     MODS_TXT = """Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Bᴇʟᴏᴡ Oᴘᴛɪᴏɴ..!!!"""
