@@ -81,12 +81,6 @@ class Bot(Client):
                 yield message
                 current += 1
 
-app = Flask(__name__)
-
-@app.route('/alive')
-def alive():
-    return "I am alive!"
-
 
 app = Bot()
 app.run()
