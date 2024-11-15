@@ -31,7 +31,7 @@ VRFIED_IMG = environ.get("VRFIED_IMG", "https://telegra.ph/file/5fc64e01b89b9bed
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1562935405 7053097886 5994274880 6303070462').split()]
-CHANNELS = environ.get('CHANNELS', '')
+CHANNELS = environ.get('CHANNELS', '-1002005663269')
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -47,8 +47,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://test:test@cluster0.febvpxf.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "theatre")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'cluster0')
 
 # Others
@@ -67,7 +67,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Sg_Movie_Backup_1/98')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Sg_Movie_Backup_1/98')
 MSG_ALRT = environ.get('MSG_ALRT', 'Juldi Yaha Se Hato')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001687647933'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'SG_Movies1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
