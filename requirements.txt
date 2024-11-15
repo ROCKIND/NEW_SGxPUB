@@ -1,6 +1,6 @@
-git+https://github.com/KurimuzonAkuma/pyrogram
-pyrofork
-pyrogram
+
+pyrofork==2.3.43
+pyrogram==2.0.106
 tgcrypto
 pymongo[srv]==3.12.3
 motor==2.5.1
@@ -9,15 +9,13 @@ umongo==3.0.1
 bs4
 git+https://github.com/Joelkb/cinemagoer
 datetime
-Jinja2==3.0.3
-werkzeug==2.0.2
-itsdangerous==2.0.1
 APScheduler==3.6.3
 requests==2.28.1
 Flask==2.1.2
+Werkzeug==2.1.2
 pytz==2023.3
 aiohttp
-gunicorn==20.1.0
+jinja2
 fuzzywuzzy
 python-Levenshtein
 shortzy
