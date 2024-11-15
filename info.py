@@ -17,13 +17,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25833520'))
 API_HASH = environ.get('API_HASH', '7d012a6cbfabc2d0436d7a09d8362af7')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6317806472:AAEtt-TiWwWRAjoQbVDPDjX5rqcj5GoC900")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/932f455a80aa9a26a7cb5.jpg https://telegra.ph/file/d1e194ee79eac633fccd5.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/d1e194ee79eac633fccd5.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/d1e194ee79eac633fccd5.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/6657f10a33d40c047f875.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/4dc9c66df41c6197a3144.jpg")
@@ -40,34 +40,34 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001941168314')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://test:test@cluster0.febvpxf.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "theatre")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'cluster0')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '9dee265f21a31f047f264e363416dd88cce7df41')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()]
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002151380153').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SG_Movies1')
-SPRT_GRP = environ.get('SPRT_GRP', 'https://t.me/SG_Movies1')
+SPRT_GRP = environ.get('SPRT_GRP', 'https://t.me/SG_Moives1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Bots_Office')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Sg_Movie_Backup_1/98')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Sg_Movie_Backup_1/98')
 MSG_ALRT = environ.get('MSG_ALRT', 'Juldi Yaha Se Hato')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001687647933'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'SG_Movies1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
